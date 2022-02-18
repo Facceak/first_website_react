@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className='button_position'>
-        <CustomButton value={"Ist Ein Arschloch"}></CustomButton>
+        <CustomButton value={""}></CustomButton>
       </div>
       <div className='picture'>
         <Pic></Pic>
