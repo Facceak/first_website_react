@@ -1,25 +1,28 @@
-.top_game{
-    position: absolute;
+.feed_site{
+    position: relative;
+    width: 100%;
+    border: 2px solid white;
+}
+.top_game{    
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 90px;
-    width: 100%;
-    height: 60%;
-    border: 2px solid white;
 }
 .top_game_picture{
-    width: 50%;
+    margin-left: 200px;
+    width: 40%;
+    min-width: 35%;
     border-top-right-radius: 50%;
     user-select: none;
     -webkit-user-drag: none;
     -webkit-user-select: none;
+    user-zoom: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
 }
 .get_button{
-    position: absolute;
-    top: 450px;
-    right: 45%;
-    width: 200px;
+    margin: 10px 0px;
+    width: 225px;
     height: 40px;
     background-color: red;
     border: 0;
@@ -31,10 +34,7 @@
     cursor: pointer;
 }
 .favorite_button{
-    position: absolute;
-    top: 450px;
-    right: 30%;
-    width: 200px;
+    width: 225px;
     height: 40px;
     background-color: rgb(66, 66, 66);
     border: 0;
@@ -44,4 +44,35 @@
     font-weight: 800;
     border-radius: 5px;
     cursor: pointer;
+}
+.buttons_position{
+    position: absolute;
+    top: 60%;
+    right: 45%;
+    width: 50px;
+}
+.top_game_information{
+
+    margin-left: 50px;
+    top: 25%;
+    width: 300px;
+    text-align: center;
+    color: rgb(165, 165, 165);
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+}
+.top_game_title{
+    color: rgb(255, 255, 255);
+}
+p::selection{
+    background: red;
+    color: white;
+}
+h1::selection{
+    background: red;
+    color: white;
+}
+button::selection{
+    background: red;
+    color: white;
 }
