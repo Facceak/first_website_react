@@ -1,17 +1,11 @@
 import './App.css';
-import CustomButton from './components/Buttons/CustomButton';
-import Pic from './components/assets/picture';
-function App() {
+import SideBar from './components/sidebar/SideBar';
+
+export default function App() {
   return (
     <div className="App">
-      <div className='button_position'>
-        <CustomButton value={""}></CustomButton>
-      </div>
-      <div className='picture'>
-        <Pic></Pic>
-      </div>
+      <SideBar></SideBar>
     </div>
   );
 }
 
-export default App;

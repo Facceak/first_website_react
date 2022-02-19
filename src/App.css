@@ -1,15 +1,6 @@
 body{
-  background: rgb(82, 82, 82);
-}
-.button_position{
-  position: absolute;
-  left: 50%;
-  top: 70%;
-  transform: translate(-50%,-50%);
-}
-.picture{
-  position: absolute;
-  left: 50%;
-  top: 35%;
-  transform: translate(-50%,-50%);
+  height:100vh;
+  width:100%;
+  background:linear-gradient(#33004b,transparent);
+  background-color:#11001a
 }
