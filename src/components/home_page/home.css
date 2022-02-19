@@ -1,7 +1,7 @@
 .feed_site{
     position: relative;
     width: 100%;
-    border: 2px solid white;
+    border: 0px solid white;
 }
 .top_game{    
     display: flex;
@@ -9,6 +9,7 @@
     align-items: center;
 }
 .top_game_picture{
+    margin-top: 25px;
     margin-left: 200px;
     width: 40%;
     min-width: 35%;
