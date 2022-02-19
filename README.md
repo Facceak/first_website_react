@@ -1,2 +1,2 @@
-#first_website_react
-This website is for me to learn React for web development.
+# climeight-ui-learning-app
+Test application to learn React-Native and implement the design.
