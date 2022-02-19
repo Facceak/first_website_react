@@ -14,31 +14,45 @@
     margin: 50px 30px;
     width: 125px;
     height: 125px;
-    border-radius: 15px;
-    border: 2px solid #3E3E3E;
-    background: #353535; 
+    cursor: pointer;
+
 }
+
 .side_button{
     width: 100px;
     height: 100px;
     margin: 100px 42.5px;
     border-radius: 15px;
-    border: 2px solid #3E3E3E;
-    background: #353535;
+    border: 2px solid #525252;
+    background-color: #353535;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.side_button:hover{
+    background: rgb(66, 66, 66);
+}
+
+
+.search{
+    -webkit-user-drag: none;
+    user-select: none;
+    margin: 15px 15px;
 }
 .button_position{
     position: absolute;
     top: 150px;
 }
 .profil_picture{
-    width: 90px;
-    height: 90px;
-    border-radius: 50px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
     overflow: hidden;
     border: 2px solid white;
 }
 .user_picture{
-    width: 90px;
-    height: 90px;
+    user-select: none;
+    -webkit-user-drag: none;
+    width: 120px;
+    height: 120px;
     display: block;
 }

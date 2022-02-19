@@ -4,3 +4,10 @@ body{
   background:linear-gradient(#33004b,transparent);
   background-color:#11001a
 }
+.copyright{
+  position: absolute;
+  right: 1px;
+  bottom: 1px;
+  text-decoration: none;
+  color: rgb(124, 124, 124);
+}
