@@ -1,13 +1,10 @@
 body{
-  height:100vh;
-  width:100%;
-  
   background-color:#03001a
 }
-.copyright{
+.Feeds{
   position: absolute;
-  right: 1px;
-  bottom: 1px;
-  text-decoration: none;
-  color: rgb(124, 124, 124);
+  right: 0;
+  width: 84%;
+  height: 100%;
+
 }
