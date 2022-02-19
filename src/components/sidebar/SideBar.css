@@ -1,58 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 .container{
     position: absolute;
     height: 100%;
     min-width: 50px;
-    width: 200px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
+    width: 300px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden;
     background: rgba(255, 255, 255, 0.1);
 }
 .account{
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 50px 30px;
-    width: 125px;
-    height: 125px;
+    margin: 0px 0px;
+    width: 300px;
+    height: 80px;
     cursor: pointer;
-
-}
-
-.side_button{
-    width: 100px;
-    height: 100px;
-    margin: 100px 42.5px;
-    border-radius: 15px;
-    border: 2px solid #525252;
-    background-color: #353535;
-    cursor: pointer;
-    transition: background-color 0.2s;
-}
-.side_button:hover{
-    background: rgb(66, 66, 66);
-}
-
-
-.search{
-    -webkit-user-drag: none;
-    user-select: none;
-    margin: 15px 15px;
-}
-.button_position{
-    position: absolute;
-    top: 150px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(34, 34, 34);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.39);
 }
 .profil_picture{
-    width: 120px;
-    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 15px;
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
     overflow: hidden;
-    border: 2px solid white;
+    background: rgb(236,255,0);
+    background: linear-gradient(73deg, rgba(236,255,0,1) 0%, rgba(255,0,0,1) 100%);
 }
 .user_picture{
     user-select: none;
     -webkit-user-drag: none;
-    width: 120px;
-    height: 120px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
     display: block;
+}
+.user_name{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 80px;
+
+
+}
+.user_name_value{
+    align-self: right;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 800;
+}
+.options{
+    right: 10px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-top: 3px;
+    background-color: rgb(141, 141, 141);
+}
+.options_position{
+    position: absolute;
+    right: 20px;
+}
+.side_button{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    margin: 0px 0px;
+    border-top: 2px solid rgba(122, 0, 0, 0.39);
+    cursor: pointer;
+    background-color: rgba(122, 0, 0, 0.192);
+    transition: background-color 0.2s;
+}
+.side_button:hover{
+    background: rgba(122, 0, 0, 0.39);
+}
+.button_value{
+    width: 100%;
+    text-align: center;
+    margin: 0px 5px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    
+}
+
+.menu{
+    position: absolute;
+    top: 85px;
+}
+.title{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
 }

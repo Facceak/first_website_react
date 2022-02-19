@@ -1,8 +1,8 @@
 body{
   height:100vh;
   width:100%;
-  background:linear-gradient(#33004b,transparent);
-  background-color:#11001a
+  
+  background-color:#03001a
 }
 .copyright{
   position: absolute;
