@@ -1,0 +1,50 @@
+.game_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 250px;
+    border: 2px solid rgb(27, 0, 70);
+    background-color: rgba(0, 38, 87, 0.383);
+    border-radius: 30px;
+    margin: 10px 10px;
+    float: left;
+}
+.game_picture{
+    width: 80%;
+    border-radius: 30px;
+}
+.game_buttons_position{
+    position: absolute;
+    width: 350px;
+    margin-left: 50px;
+    margin-top: 200px;
+
+
+
+}
+.game_get_button{
+    margin: 0px 5px;
+    width: 150px;
+    height: 30px;
+    background-color: red;
+    border: 0;
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.game_favorite_button{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(66, 66, 66);
+    border: 0;
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    border-radius: 5px;
+    cursor: pointer;
+}
