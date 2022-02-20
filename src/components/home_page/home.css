@@ -2,12 +2,13 @@
     position: relative;
     width: 100%;
     border: 0px solid white;
+    
 }
 .top_game{    
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px solid rgb(182, 0, 0);
+    border-bottom: 0px solid rgb(70, 0, 182)
 }
 .top_game_picture{
     margin-top: 25px;
