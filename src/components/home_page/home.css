@@ -7,6 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 2px solid rgb(182, 0, 0);
 }
 .top_game_picture{
     margin-top: 25px;
@@ -48,14 +49,14 @@
 }
 .buttons_position{
     position: absolute;
-    top: 60%;
-    right: 45%;
+    top: 300px;
+    right: 800px;
     width: 50px;
 }
 .top_game_information{
 
-    margin-left: 50px;
-    top: 25%;
+    margin-left: 150px;
+
     width: 300px;
     text-align: center;
     color: rgb(165, 165, 165);
