@@ -14,4 +14,4 @@ export default function App() {
   );
 }
 
-var information = "Begib dich in It Takes Two – einem genreübergreifenden Plattformer-Adventure mit purer Koop-Ausrichtung – auf die verrückteste Reise deines Lebens. Spielt zusammen als Cody und May, ein Paar mit Konfliktpotenzial, das durch einen Zauberspruch in Puppen verwandelt wurde."
+let information = "Begib dich in It Takes Two – einem genreübergreifenden Plattformer-Adventure mit purer Koop-Ausrichtung – auf die verrückteste Reise deines Lebens. Spielt zusammen als Cody und May, ein Paar mit Konfliktpotenzial, das durch einen Zauberspruch in Puppen verwandelt wurde."
